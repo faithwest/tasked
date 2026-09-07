@@ -1,6 +1,6 @@
 "use client"
 
-import { LayoutDashboard, CheckSquare, Calendar, BarChart3, Users, Settings, HelpCircle, LogOut } from "lucide-react"
+import { LayoutDashboard, CheckSquare, Calendar, BarChart3, Users, BookOpen, Settings, HelpCircle, LogOut } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { useState } from "react"
 import Link from "next/link"
@@ -12,6 +12,7 @@ const menuItems = [
   { icon: Calendar, label: "Calendar", href: "/calendar" },
   { icon: BarChart3, label: "Analytics", href: "/analytics" },
   { icon: Users, label: "Team", href: "/team" },
+  { icon: BookOpen, label: "Journal", href: "/journal" },
 ]
 
 const generalItems = [
